@@ -164,6 +164,7 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 .navbar--logo {
   display: flex;
@@ -304,6 +305,7 @@ h2 {
   border-radius: 10.6px;
   background: #fff;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 .team--section--card--content {
   display: flex;
@@ -614,6 +616,7 @@ h2 {
     text-align: center;
   }
 
+  
   .team--section--container,
   .about--section,
   .events--section--container,
